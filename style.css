@@ -1,9 +1,42 @@
 /* For Destop */
+@media (min-width: 427px) {
+    
 *{
     box-sizing: border-box;
     margin: 0;
 
 }
+
+header h1{
+    font-family: "Just Another Hand", cursive;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 40px;
+}
+
+main h3
+{
+    font-family: "Just Another Hand", cursive;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.reviews h3
+{
+    font-family: "Just Another Hand", cursive;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 20px;
+}
+
+footer, .top-section span{
+    font-family: "Just Another Hand", cursive;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 15px;
+}
+  
 
 nav{
     display: flex;
@@ -93,6 +126,7 @@ span{
 
 .review1 .sign{
     margin-left: 10px;
+    color: #9b9c9e;
 }
 
 footer{
@@ -101,10 +135,19 @@ footer{
     padding: 10% 15%;
 }
 
+}
+
 /* For Mobile */
 @media (max-width: 526px) {
     *{
         box-sizing: border-box;
+    }
+
+    header h1{
+        font-family: "Just Another Hand", cursive;
+        font-weight: 100;
+        font-style: normal;
+        font-size: 30px;
     }
 
     nav{
